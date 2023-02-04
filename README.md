@@ -8,7 +8,10 @@ In my project, I have configured the B+ tree algorithm using fewer nodes than it
 3. Give to left
 4. Split
 
-.
+(Steps 2 and 3 are not performed in the standard design)
+
+
+## **Istertion step by step example**
 
 ### Starting node, an empty node, both leafnode and root
 
