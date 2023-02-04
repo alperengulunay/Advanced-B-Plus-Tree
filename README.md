@@ -1,18 +1,37 @@
 # Advanced-B-Plus-Tree
 
 
+Insertion Rules
+1. Find correct leafnode and try to give it
+2. Give to right
+3. Give to left
+4. Split
 
+.
 
+1. Starting node, an empty node, both leafnode and root
 
-![1 drawio](https://user-images.githubusercontent.com/68849018/216774418-2e9d92c2-8c19-436b-b98d-5f2e6d9425b5.png)
+<img src="[drawing.jpg](https://user-images.githubusercontent.com/68849018/216774418-2e9d92c2-8c19-436b-b98d-5f2e6d9425b5.png)" alt="drawing" style="width:200px;"/>
+
+![1 drawio](https://user-images.githubusercontent.com/68849018/216774418-2e9d92c2-8c19-436b-b98d-5f2e6d9425b5.png  | width=100)
+
+2. Insert "**1**"
 
 ![1 drawio (1)](https://user-images.githubusercontent.com/68849018/216774496-827de561-6a72-4045-9031-d44a024203ff.png)
 
+3. Insert "**2, 3 and 4**"
+
 ![1 drawio (2)](https://user-images.githubusercontent.com/68849018/216774497-1adfb4cc-de9c-4859-bedb-24109b1de8c3.png)
+
+4. Try to Insert "**5**" but not enough free space
 
 ![1 drawio (3)](https://user-images.githubusercontent.com/68849018/216774499-b41b3e04-d521-4825-8ab4-8228ac0862d5.png)
 
+5. Split the node into 2, and give "**5**" to right leafnode, create parent and bind them
+
 ![1 drawio (4)](https://user-images.githubusercontent.com/68849018/216774500-14937bad-bda4-4039-bdf7-e151279ef3cc.png)
+
+6. Set parent node's value
 
 ![1 drawio (5)](https://user-images.githubusercontent.com/68849018/216774501-1455969c-cc2d-4964-bcc9-9bd3fe3c2c3f.png)
 
@@ -53,6 +72,8 @@
 ![1 drawio (25)](https://user-images.githubusercontent.com/68849018/216774492-af7d1fa4-871c-48cf-a9c1-f5f21e2d9951.png)
 
 ![1 drawio (26)](https://user-images.githubusercontent.com/68849018/216774493-7de4b8b7-0ab7-4c77-b882-e9de6a8b0fb5.png)
+
 ![1 drawio (27)](https://user-images.githubusercontent.com/68849018/216774494-5454a2e2-f827-4934-bc6b-8f75af2db1ca.png)
+
 ![1 drawio (28)](https://user-images.githubusercontent.com/68849018/216774495-b2f6d0f3-ea0d-44d6-ada9-c2fa2fcd3637.png)
 
