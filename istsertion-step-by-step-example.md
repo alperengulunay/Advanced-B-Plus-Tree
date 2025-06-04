@@ -1,7 +1,3 @@
-# Advanced-B-Plus-Tree
-
-In my project, I have configured the B+ tree algorithm using fewer nodes than its standard design. This design requires less data transfer between nodes, thus providing advantages in terms of capacity and speed. In addition, thanks to this design, which requires less data transfer between nodes, search operations can be performed faster.
-
 ## **Insertion Rules**
 1. Find correct leafnode and try to give it
 2. Give to right
