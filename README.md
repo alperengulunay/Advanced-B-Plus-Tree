@@ -53,7 +53,7 @@ Client CLI
 [File System] <-- Node serialization
 ```
 
-> 📌 \*For visual B+ Tree growth examples, see step-by-step inserts in the original \*[*README*](https://github.com/alperengulunay/Advanced-B-Plus-Tree#istsertion-step-by-step-example)
+> 📌 \*For visual B+ Tree growth examples, see step-by-step inserts in the original \*[*istsertion-step-by-step-example*](https://github.com/alperengulunay/Advanced-B-Plus-Tree/blob/master/istsertion-step-by-step-example.md)
 
 ---
 
